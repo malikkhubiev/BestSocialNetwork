@@ -1,0 +1,26 @@
+img{
+  display: inline-block;
+}
+p{
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+input:focus{
+  outline: none;
+}
+button:focus{
+  outline: none;
+}
+.mainContent{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}

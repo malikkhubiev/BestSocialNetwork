@@ -1,0 +1,26 @@
+p{
+    display: inline-block;
+}
+.Login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Century Gothic;
+    font-size: 25px;
+    text-align: center;
+}
+.header{
+    font-size: 30px;
+}
+form{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.button{
+    margin-top: 50px;
+}

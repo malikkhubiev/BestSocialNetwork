@@ -1,0 +1,19 @@
+.friendsItem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85px;
+  margin: 10px;
+  flex-direction: column;
+}
+.friendsItemImg{
+  width: 25px;
+  height: 25px;
+  background-color: khaki;
+  border-radius: 50%;
+}
+.friendsItemName{
+  font-size: 20px;
+  margin-top: 10px;
+  color: white;
+}

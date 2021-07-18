@@ -1,0 +1,52 @@
+.person{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.personTopimg{
+  width: 100%;
+  height: 100px;
+  background-image: url('./../../../images/top.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.personData{
+  margin-top: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+.personDataAva{
+  margin-right: 50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.personDataDesc{
+  max-width: 70%;
+}
+.personDataDescName{
+  text-transform: capitalize;
+  font-size: 30px;
+}
+.personStatus{
+  display: inline-block;
+}
+.personStatus p{
+  word-break: break-word;
+  font-size: 25px;
+  font-family: Century Gothic;
+}
+.personDataDescDesc{
+  font-size: 25px;
+  margin: 5px 0;
+}
+.input{
+  width: 500px;
+  height: 50px;
+  font-size: 25px;
+}

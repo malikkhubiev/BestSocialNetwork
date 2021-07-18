@@ -1,0 +1,54 @@
+.appContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Century Gothic;
+  font-size: 25px;
+}
+.doublePart{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+.leftSide{
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.rightSide{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* ALL */
+div{
+  box-sizing: border-box;
+}
+input{
+  margin: 10px 0;
+  box-sizing: border-box;
+  padding: 10px;
+  font-family: Century Gothic;
+  font-size: 25px;
+  width: 500px;
+  height: 50px;
+}
+button{
+  margin: 0;
+  min-width: 300px;
+  height: 50px;
+  font-family: Century Gothic;
+  background-color: transparent;
+  border: 1px solid black;
+  font-size: 30px;
+  cursor: pointer;
+}
